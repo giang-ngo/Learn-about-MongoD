@@ -7,7 +7,7 @@ trường **runtime** với các toán tử so sánh khác nhau:
  db.movies.find({ runtime: {$eq:60}})
 ```
 
-![alt text](image-10.png)
+![alt text](/images/examples/image-10.png)
 
 ## 2. Toán tử không bằng ($ne)
 
@@ -15,7 +15,7 @@ trường **runtime** với các toán tử so sánh khác nhau:
 db.movies.find({ runtime: {$ne:60}})
 ```
 
-![alt text](image-11.png)
+![alt text](/images/examples/image-11.png)
 
 ## 3. Toán tử bé hơn ($lt)
 
@@ -23,7 +23,7 @@ db.movies.find({ runtime: {$ne:60}})
 db.movies.find({ runtime: {$lt:40}})
 ```
 
-![alt text](image-12.png)
+![alt text](/images/examples/image-12.png)
 
 ## 4. Toán tử bé hơn hoặc bằng ($lte)
 
@@ -37,7 +37,7 @@ db.movies.find({ runtime: {$lt:40}})
 db.movies.find({ runtime: {$gt:40}})
 ```
 
-![alt text](image-13.png)
+![alt text](/images/examples/image-13.png)
 
 ## 6. Toán tử lớn hơn hoặc bằng ($gte)
 
@@ -45,4 +45,4 @@ db.movies.find({ runtime: {$gt:40}})
 db.movies.find({ runtime: {$gte:42}})
 ```
 
-![alt text](image-14.png)
+![alt text](/images/examples/image-14.png)

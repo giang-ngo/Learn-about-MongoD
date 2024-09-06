@@ -6,7 +6,7 @@ Bạn sử dụng lệnh mongoimport để nhập dữ liệu từ tệp JSON tv
 mongoimport tv-shows.json -d movieData -c movies --jsonArray --drop
 ```
 
-![alt text](/examples/image-7.png)
+![alt text](/images/examples/image-7.png)
 
 ## Truy cập MongoDB bằng mongosh
 
@@ -22,7 +22,7 @@ mongosh
 show dbs
 ```
 
-![alt text](/examples/image-8.png)
+![alt text](/images/examples/image-8.png)
 
 ## Xem dữ liệu trong collection movies
 
@@ -33,4 +33,4 @@ use movieData      # Chuyển vào cơ sở dữ liệu movieData
 db.movies.find()   # Hiển thị dữ liệu trong collection movies
 ```
 
-![alt text](/examples/image-9.png)
+![alt text](/images/examples/image-9.png)

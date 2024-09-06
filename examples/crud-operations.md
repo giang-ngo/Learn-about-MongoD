@@ -28,7 +28,7 @@ db.flightData.insertOne({
     })
 ```
 
-![alt text](/images/examples/image.png)
+![alt text](/images/examples/image.png)<br>
 Xem dữ liệu vừa thêm:
 
 ```
