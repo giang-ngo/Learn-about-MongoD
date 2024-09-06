@@ -1,4 +1,5 @@
-#![Mongodb](/images/leaf.svg) Giới thiệu về MongoDB
+![Mongodb](/images/leaf.svg) 
+# Giới thiệu về MongoDB
 
 **MongoDB** là một hệ quản trị cơ sở dữ liệu NoSQL phổ biến, được thiết kế để lưu trữ và quản lý dữ liệu không có cấu trúc theo cách linh hoạt và hiệu quả. Khác với các cơ sở dữ liệu quan hệ truyền thống, MongoDB không sử dụng các bảng và hàng mà thay vào đó, dữ liệu được lưu trữ dưới dạng tài liệu (document) trong các bộ sưu tập (collections). Các tài liệu này được định dạng dưới dạng JSON (JavaScript Object Notation), mang lại khả năng lưu trữ các cấu trúc dữ liệu phức tạp và không đồng nhất một cách dễ dàng.
 

@@ -40,6 +40,7 @@ db.flightData.find().pretty()
 ## 3. Thêm nhiều dữ liệu vào flightData
 
 Thêm nhiều dữ liệu vào collection flightData:
+```
 db.flightData.insertMany([{
 "departureAirport": "MUC",
 "arrivalAirport": "SFO",
@@ -54,6 +55,7 @@ db.flightData.insertMany([{
 "distance": 950,
 "intercontinental": false
 }])
+```
 ![alt text](/images/examples/image-2.png)
 
 ## 4. Xóa một dữ liệu từ flightData
